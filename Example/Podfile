@@ -1,0 +1,11 @@
+#use_frameworks!
+
+target 'AppVStats_Example' do
+  pod 'AppVStats', :path => '../'
+
+  target 'AppVStats_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

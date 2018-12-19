@@ -1,0 +1,27 @@
+PODS:
+  - AppVStats (0.1.0):
+    - AWSS3 (~> 2.6)
+  - AWSCore (2.8.1)
+  - AWSS3 (2.8.1):
+    - AWSCore (= 2.8.1)
+
+DEPENDENCIES:
+  - AppVStats (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCore
+    - AWSS3
+
+EXTERNAL SOURCES:
+  AppVStats:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppVStats: 699584ab689bdfe05b727e2259be1cc990fd5247
+  AWSCore: f17db38a5f8bceb217a19d58d8755bbb6f5ddb3c
+  AWSS3: 7b92a900fa54ce386e562d81c9d51724e70178a0
+
+PODFILE CHECKSUM: 9d191bf70beb3a8d72d37fc1228848b981c41cbe
+
+COCOAPODS: 1.5.3
