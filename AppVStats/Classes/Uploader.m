@@ -7,10 +7,10 @@
 
 #import "Uploader.h"
 
-#define awsAccessKey    @"AKIAJKYK5YYKONSHZFLQ"
-#define awsSecretKey    @"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"
-#define awsBucket       @"am.iunetworks.iun-hackathon"
-#define videolyticsUrl  @"http://18.220.188.16/api/v1/analytics"
+#define awsAccessKey    @""
+#define awsSecretKey    @""
+#define awsBucket       @""
+#define videolyticsUrl  @""
 
 @interface Uploader()<NSURLSessionDelegate>
 

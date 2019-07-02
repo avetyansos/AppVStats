@@ -119,8 +119,9 @@
     
     [self uploadPreviousSession];
     self.session = [[VLSession alloc] init];
-    self.screenRecorder.directory = self.session.filesDirectory;
-    [self.screenRecorder startRecording];
+    SRScreenRecorder *screenRecorder = self.screenRecorder;
+    screenRecorder.directory = self.session.filesDirectory;
+    [screenRecorder startRecording];
 }
 
 - (void)stopSession {
