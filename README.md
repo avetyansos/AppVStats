@@ -17,7 +17,7 @@ AppVStats is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AppVStats', :git => 'https://github.com/Alamofire/Alamofire.git'
+pod 'AppVStats', :git => 'https://github.com/avetyansos/AppVStats.git'
 ```
 
 ## Author
